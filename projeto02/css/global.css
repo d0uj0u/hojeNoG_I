@@ -1,0 +1,158 @@
+*
+{
+  padding: 0px;
+  margin: 0px;
+}
+
+@font-face
+{
+  font-family: contexto;
+  src: url(../fontes/contexto.ttf);
+}
+
+@font-face
+{
+  font-family: genshinImpact;
+  src: url(../fontes/genshinImpact.ttf);
+}
+
+body
+{
+  background-size: 100%;
+  background-image: url("../imagens/fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: contexto;
+}
+
+header
+{
+  height: 80px;
+  background-color: #8FBD77;
+  align-items: center;
+  display: flex;
+  text-transform: uppercase;
+  font-size: 10px;
+  border-bottom: 3px #5F7D4F solid;
+  font-family: genshinImpact;
+  background-image: url("../imagens/genshinImpactLogo.png");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: right 30px center;
+}
+
+h1 a
+{
+  text-decoration: none;
+  color: white;
+  margin-left: 60px;
+}
+
+.destaque
+{
+  font-style: normal;
+  color: green;
+  font-size: 32px;
+}
+
+.destaque.dois
+{
+  margin-left: 190px;
+}
+
+#painel
+{
+  width: 80%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 10%;
+}
+
+section
+{
+  height: 300px;
+  width: 40%;
+  background-color: #e0fad1;
+  border: 2px #a4bd96 solid;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+
+#diarias:hover, #semanais:hover
+{
+  background-color: #b2e198;
+  border: 2px #5F7D4F solid;
+}
+
+#sessaoSemanaisDivisao
+{
+  width: 300px;
+  border: 1px black solid;
+  margin: 20px 10%;
+  display: flex;
+}
+
+.apagar
+{
+  text-align: right;
+
+}
+
+.tarefasPainel
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 220px;
+}
+
+.subtitulo
+{
+  color: #5F7D4F;
+  margin: 5px 5px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.tarefas
+{
+  height: 74px;
+  border-radius: 50%;
+  background-color: #8FBD77;
+}
+
+.tarefas:hover
+{
+  background-color: #5F7D4F;
+  cursor: pointer;
+}
+
+.apagar
+{
+  float: right;
+  height: 40px;
+  margin-top: -20px;
+  margin-right: 6px;
+  border-radius: 50%;
+  background-color: #8FBD77;
+}
+
+.apagar:hover
+{
+  background-color: #5F7D4F;
+  cursor: pointer;
+}
+
+footer
+{
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: #5F7D4F;
+  border-top: 2px #59754A solid;
+  border-radius: 10px 10px 0 0;
+  opacity: 0.9;
+  color: white;
+}
